@@ -8,11 +8,11 @@ fetch("../datos/productos.json")
 .then ((productos) => {
     productos.forEach(pieza => {
         todosLosProductos.innerHTML += `
-        <article class = "col-12 col-md-4 col-lg-3"><br><br>
+        <article class = "detalle col-12 col-md-4 col-lg-3"><br><br>
         <img class= "w-100" src= '${pieza.imagen}' alt= '${pieza.producto}' >
-        <h3 class="text-center">${pieza.producto}</h3>
-        <h5 class="text-center">${pieza.descripcion}</h5>
-        <a id='${JSON.stringify(pieza)}' href="#" class="botonDetalle btn btn-outline-danger w-100" >Ver Detalle</a> <br><br><br>
+        <h3 class="name text-center">${pieza.producto}</h3>
+        <h5 class="detail text-center">${pieza.descripcion}</h5>
+        <a id='${JSON.stringify(pieza)}' href="#" class="botonDetalle btn btn-lg btn-outline-danger w-100" >Ver Detalle</a> <br><br><br>
       </article>`
      
     });

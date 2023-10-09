@@ -2,11 +2,11 @@
     {
         "codigo": 1,
         "producto": "Mate con aritos",
-        "descripcion": "Mate con asas y argollitas decorativas",
+        "descripcion": "Mate con asas y argollitas",
         "imagen": "./img/mate.jpg",
         "detalle": "Pieza única de cerámica sin esmalte, pintada y moldeada a mano. Curado y listo para usar. No se calienta por demás de modo que, si es invierno y buscas un poco de calorcito entre las manos, vas a disfrutar mucho de estos mates. La bombilla no está incluida",
-        "precio": 1800.00,
-        "puntuacion": "*****"
+        "precio": "$ 1800",
+        "puntuacion": "☆☆☆☆☆"
     },
     {
         "codigo": 2,
@@ -14,8 +14,8 @@
         "descripcion": "Cazuela redonda con asas",
         "imagen": "./img/cazuelas.jpg",
         "detalle": "Pieza única de cerámica sin esmalte, pintada y moldeada a mano. Podes usarla para comer un rico guiso en invierno, o para preparar un yogurt con cereales y frutas en el desayuno. Además, podes usarla en el horno",
-        "precio": 2900.00,
-        "puntuacion": "*****" 
+        "precio": "$2900",
+        "puntuacion": "☆☆☆☆☆"
     },
     {
         "codigo": 3,
@@ -23,8 +23,8 @@
         "descripcion": "Horno aromático",
         "imagen": "./img/Hornito.jpg",
         "detalle": "Pieza única de cerámica sin esmalte, pintada y moldeada a mano. Podes crear bellos ambientes con solo agregar una vela y alguna esencia del aroma que más te guste. Dejate llevar por los sentidos y disfruta de la relajación que te proveerá la habitación bajo la tenue luz de una vela y la fragancia que te teletransporte a donde quieras. La vela y la escencia no están incluidas",
-        "precio": 3580.00,
-        "puntuacion": "*****" 
+        "precio": "$3580",
+        "puntuacion": "☆☆☆☆☆"
     },
     {
         "codigo": 4,
@@ -32,8 +32,8 @@
         "descripcion": "Olla artesanal con asas y tapa",
         "imagen": "./img/Olla.jpg",
         "detalle": "Pieza única de cerámica sin esmalte, pintada y moldeada a mano. Cociná guisos, pastas, salsas, lo que más te guste con esta ollita del amor. Podes meterla al horno o simplemente usarla sobre alguna hornalla. Las asas y la tapa no se calientan",
-        "precio": 6350.00,
-        "puntuacion": "*****" 
+        "precio": "$6350",
+        "puntuacion": "☆☆☆☆☆"
     },
     {
         "codigo": 5,
@@ -41,8 +41,8 @@
         "descripcion": "Maceta decorada con pajaritos",
         "imagen": "./img/maceta.jpg",
         "detalle": "Pieza única de cerámica sin esmalte, pintada y moldeada a mano. Para plantas de interior o exterior, dale color y alegría a tu casa o tu jardín con esta simpática maceta artesanal cuyo toque especial se lo dan esas pequeñas aves posadas en el borde, como contemplando la hermosura de la flor que tienen frente",
-        "precio": 2570.00,
-        "puntuacion": "*****" 
+        "precio": "$2570",
+        "puntuacion": "☆☆☆☆☆"
     },
     {
         "codigo": 6,
@@ -50,7 +50,7 @@
         "descripcion": "Frasco para productos secos",
         "imagen": "./img/vasija.jpg",
         "detalle": "Pieza única de cerámica sin esmalte, pintada y moldeada a mano. Podes guardar yerba, arroz, pastas, caramelos, lo que se te ocurra dentro de este particular frasco con cara y manitos a modo de asas. Además funciona también como objeto decorativo. Eso sí, si guardas golosinas no lo dejes al alcacnce de la mano",
-        "precio": 6580.00,
-        "puntuacion": "*****" 
+        "precio": "$6580",
+        "puntuacion": "☆☆☆☆☆" 
     }
 ]
