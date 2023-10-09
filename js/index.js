@@ -1,7 +1,7 @@
 let todosLosProductos = document.querySelector('.productos');
 //capturo la section donde luego agregaré la información de cada producto
 
-fetch("../datos/productos.json")
+fetch("./datos/productos.json")
 .then((respuesta) =>{
     return respuesta.json()
 })
