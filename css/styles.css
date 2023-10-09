@@ -88,3 +88,41 @@ html{
 }
 
 
+#piePagina{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    background-color:lightgoldenrodyellow;
+    color:lightseagreen;
+    
+}
+#redesSociales{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+#piePagina h2{
+text-align: center;
+padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ion-icon{
+    color: lightseagreen;
+    font-size: 2rem;
+}
+
+.contacto {
+    font-size: 20px;
+    
+}
+
+.title {
+    font-size: 35px;
+}

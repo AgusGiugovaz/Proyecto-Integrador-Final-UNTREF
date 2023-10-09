@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" href="./img/favicon-32x32.png">
   </head>
 <body>
-    <h1 class="titulo text-center">Cerámica Vôo. Ojetos creados a mano con mucho &#x2764</h1>
+    <h1 class="titulo text-center" id="volver-arriba">Cerámica Vôo. Ojetos creados a mano con mucho &#x2764</h1>
     
     <section class="row m-auto">
         <article class="col-md-4 m-auto">
@@ -26,11 +26,41 @@
                   <h5 class="text-center" id="precio"></h5>
                   <h5 class="text-center" id="puntuacion"></h5>
                 </section>
-                  <a class="btn btn-lg btn-outline-secondary w-100" id="botonRegresar" href="index.html">Volver a la página de Inicio</a>
+                  <a class="btn btn-lg btn-outline-danger w-100 " id="botonRegresar" href="index.html">Volver a la página de Inicio</a>
         </article>
     </section>
+
+    <footer id="piePagina">
+      <div id="redes"> 
+          <ul id="redesSociales">
+              <li><a href="https://www.instagram.com/ceramicavoo/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+              <li><a href="https://www.facebook.com/ceramicavoo" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+              <li><a href="https://www.linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+              <li><a href="https://www.youtube.com" target="_blank"><ion-icon name="logo-youtube"></ion-icon>
+                <i class="fa-brands fa-youtube fa-xl" style="color: #ffffff;"></i></a></li>
+          </ul>
+      </div>
+    <div id="mapa">
+        <h2 class= "title">Cerámica Vôo</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.084358076376!2d-57.99436999878664!3d-34.92043086900471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2sfr!4v1696870865959!5m2!1ses!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+      <h2 class= "title">Contactanos</h2>
+      <ul>
+        <li class="contacto">ceramica.voo@gmail.com</li>
+        <li class="contacto">Tel: 221 54856878</li>
+        <li class="contacto">Whatsapp: 221 45978256</li>
+      </ul>
+    </div>
+      <div id="subir">
+         <a href="#volver-arriba"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
+      </div>
     
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>   
+  </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>  
 <script src="./js/index.js"></script>
 <script src="./js/detalle.js"></script>
 </body>
